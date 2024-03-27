@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Audio Sentiment Analysis</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="speaker1">Name of Speaker 1:</label>
+        <input type="text" id="speaker1" name="speaker1" required><br><br>
+        
+        <label for="speaker2">Name of Speaker 2:</label>
+        <input type="text" id="speaker2" name="speaker2" required><br><br>
+        
+        <input type="file" name="file" accept="audio/*">
+        <button type="submit">Upload Audio</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transcription with Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Transcription with Sentiment Analysis</h1>
+    <h2>Transcribed Text:</h2>
+    <p>{{ transcribed_text }}</p>
+    <h2>Sentiment Insights:</h2>
+    <ul>
+    {% for insight in sentiment_insights %}
+        <li>{{ insight }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
